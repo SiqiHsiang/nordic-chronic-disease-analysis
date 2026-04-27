@@ -15,22 +15,23 @@ using NCD-RisC and Our World in Data public health datasets.
 - **Our World in Data / WHO**: Obesity prevalence (BMI ≥ 30), 1990–2016
 
 ## Project Structure
-nordic-chronic-disease-analysis/
-├── data/
-│   ├── diabetes.csv          # Raw NCD-RisC diabetes data
-│   ├── obesity.csv           # Raw OWID obesity data
-│   └── nordic_cleaned.csv    # Cleaned & merged dataset
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_data_cleaning.ipynb
-│   ├── 03_visualization.ipynb
-│   └── 04_regression.ipynb
-├── figures/
-│   ├── diabetes_trend.png
-│   ├── diabetes_vs_obesity.png
-│   ├── diabetes_by_sex.png
-│   └── regression.png
-└── README.md
+
+    nordic-chronic-disease-analysis/
+    ├── data/
+    │   ├── diabetes.csv           # Raw NCD-RisC diabetes data
+    │   ├── obesity.csv            # Raw OWID obesity data
+    │   └── nordic_cleaned.csv     # Cleaned & merged dataset
+    ├── notebooks/
+    │   ├── 01_data_exploration.ipynb
+    │   ├── 02_data_cleaning.ipynb
+    │   ├── 03_visualization.ipynb
+    │   └── 04_regression.ipynb
+    ├── figures/
+    │   ├── diabetes_trend.png
+    │   ├── diabetes_vs_obesity.png
+    │   ├── diabetes_by_sex.png
+    │   └── regression.png
+    └── README.md
 
 ## Key Findings
 
