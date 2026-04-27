@@ -39,16 +39,19 @@ using NCD-RisC and Our World in Data public health datasets.
 All Nordic countries show rising diabetes prevalence from 1990 to 2022. 
 Denmark is the only exception, with prevalence peaking around 2005 and 
 declining steadily since.
+![Diabetes Trend](figures/diabetes_trend.png)
 
 ### 2. Obesity is a significant but incomplete predictor
 Linear regression across all countries shows R²=0.41 (p<0.001): obesity 
 explains 41% of diabetes variation. Country-level R² ranges from 0.87 
 (Finland) to 0.23 (Denmark), suggesting other factors — including policy 
 interventions — play a substantial role.
+![Regression](figures/regression.png)
 
 ### 3. Gender gap is consistent across all countries
 Men consistently show higher diabetes prevalence than women in all six 
 countries. Finland shows the widest and growing gender gap.
+![Gender Gap](figures/diabetes_by_sex.png)
 
 ### 4. Denmark's negative slope: a policy signal
 Denmark is the only country with a negative obesity-diabetes slope (−0.06, 
