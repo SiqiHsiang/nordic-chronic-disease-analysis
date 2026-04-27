@@ -71,6 +71,6 @@ git clone https://github.com/SiqiHsiang/nordic-chronic-disease-analysis.git
 cd nordic-chronic-disease-analysis
 python3 -m venv venv
 source venv/bin/activate
-pip install pandas matplotlib scipy
+pip install -r requirements.txt
 jupyter notebook
 ```
